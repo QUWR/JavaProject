@@ -4,9 +4,9 @@ import java.sql.*;
 
 public class Database {
     Connection con = null;
-    String url = "jdbc:mysql://localhost/data1?serverTimezone=Asia/Seoul";
-    String user = "root";
-    String password = "0625";
+    String url = "";
+    String user = "";
+    String password = "";
 
     public Database(){
         try {
